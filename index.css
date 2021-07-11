@@ -1,0 +1,287 @@
+body {
+  background-color: #eaeded;
+  margin: 0%;
+}
+
+div.background {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#343483), to(rgba(0, 0, 0, 0)));
+  background-image: linear-gradient(to bottom, #343483, rgba(0, 0, 0, 0));
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100% 620px;
+  width: 1500px;
+  margin: auto;
+  float: none;
+}
+
+div.box {
+  background-color: white;
+  height: 380px;
+  width: 310px;
+  float: left;
+  padding: 20px;
+  position: relative;
+  margin-right: 20px;
+}
+
+a.box {
+  color: #007185;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 13px;
+  text-decoration: none;
+  height: 19px;
+  width: 310px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+div.allboxes {
+  width: 1480px;
+  height: 420px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+}
+
+div.box1 {
+  height: 308px;
+  width: auto;
+}
+
+div.empty {
+  width: 1315px;
+  height: 230px;
+  background-color: transparent;
+  margin: auto;
+  float: none;
+  clear: both;
+  padding-bottom: 20px;
+}
+
+img.personbutton {
+  float: left;
+  clear: none;
+  padding-right: 15px;
+}
+
+p.textinbox {
+  width: 235px;
+  height: 27px;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  margin: 0;
+}
+
+p.textinbox.small {
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  width: 235px;
+  height: 19px;
+}
+
+p.textinbox.big {
+  width: 310px;
+  margin-bottom: 10px;
+  padding-right: 20px;
+}
+
+div.textinboxalone {
+  float: left;
+  clear: both;
+  width: 100%;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+p.textinboxalone {
+  float: left;
+  clear: both;
+  width: 100%;
+}
+
+div.smallpicinboxl {
+  padding: 5px;
+  float: left;
+  clear: left;
+  display: block;
+  position: relative;
+}
+
+div.smallpicinboxr {
+  padding: 5px;
+  float: left;
+  clear: right;
+  display: block;
+  position: relative;
+}
+
+a.linkpicl {
+  float: left;
+  clear: left;
+  background-color: transparent;
+  height: 150px;
+  width: 153.5px;
+  text-decoration: none;
+  color: black;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 12px;
+}
+
+div.linkpicboxl {
+  float: left;
+  clear: left;
+  height: 150px;
+  width: 153.5px;
+  margin-bottom: 2px;
+  margin-right: 2px;
+}
+
+a.linkpicr {
+  float: left;
+  clear: right;
+  background-color: transparent;
+  height: 150px;
+  width: 153.5px;
+  text-decoration: none;
+  color: black;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 12px;
+}
+
+div.linkpicboxr {
+  float: left;
+  clear: right;
+  height: 150px;
+  width: 153.5px;
+}
+
+p.inlink {
+  text-align: center;
+  padding: 0px;
+  margin: 10px;
+}
+
+img.bigpicinbox {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+div.bigpicinbox {
+  height: 305px;
+  width: 310px;
+  position: relative;
+  clear: both;
+}
+
+div.bigpicinbox.smaller {
+  height: 240px;
+  margin: auto;
+}
+
+div.bigpicinbox.smaller.out {
+  height: 293px;
+  padding-top: 0px;
+}
+
+a.linkbigpic {
+  height: 100%;
+  width: 100%;
+  display: block;
+  clear: both;
+}
+
+p.priceunderpic.firstline {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 4px;
+  margin-bottom: 0;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 21px;
+  width: 310px;
+  height: 30px;
+}
+
+p.priceunderpic.secondline {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 13px;
+}
+
+div.alotitems {
+  width: 1460px;
+  height: 261px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+div.items {
+  height: 200px;
+  width: auto;
+  margin-left: 10px;
+  float: left;
+}
+
+div.products {
+  height: auto;
+  width: 1460px;
+}
+
+div.overend {
+  width: 100%;
+  height: 685px;
+  background-color: white;
+  padding-top: 22px;
+  clear: both;
+}
+
+a.buttontotop {
+  width: 100%;
+  height: 19px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #37475a;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Amazon Ember", Arial, sans-serif;
+  font-size: 13px;
+  color: white;
+}
+
+div.bottom {
+  height: 457;
+  width: 100%;
+  background-color: #232f3e;
+}
+
+div.bottom.second {
+  border-top-style: solid;
+  border-color: #3a4553;
+  border-width: 1px;
+  height: 108px;
+}
+
+div.bottom.third {
+  border-style: none;
+  height: 192px;
+  background-color: #131a22;
+}
+
+div.bottom.fourth {
+  height: 58px;
+  background-color: #131a22;
+  border-style: none;
+}
+/*# sourceMappingURL=index.css.map */

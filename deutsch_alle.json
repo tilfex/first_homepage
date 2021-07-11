@@ -1,0 +1,257 @@
+[
+    {
+        "title": "Im Trend", 
+        "contents": [
+            {"title": "Bestseller"}, 
+            {"title": "Neuerscheinungen"}, 
+            {"title": "Aufsteiger des Tages"}]
+    },
+    {
+        "title": "Digitale Inhalte & Geräte", 
+        "contents": [
+            {"title": "Prime Video",
+            "contents": 
+            [
+                {"title": "HAUPTMENÜ"},
+                {"title": "Alle Videos"},
+                {"title": "Enthalten in Prime"},
+                {"title": "Prime Video Channels"},
+                {"title": "Kaufen und leihen"},
+                {"title": "Meine Watchlist"},
+                {"title": "Gekaufte und geliehene Titel"},
+                {"title": "Auf vielen Geräten verfügbar"}
+            ]
+            }, 
+            {"title": "Amazon Music",
+            "contents": 
+            [
+                {"title": "HAUPTMENÜ"},
+                {"title": "Amazon Music Unlimited"},
+                {"title": "Amazon Music HD"},
+                {"title": "Amazon Music Prime"},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."}
+            ]
+            }, 
+            {"title": "Amazon Appstore",
+            "contents": 
+            [
+                {"title": "HAUPTMENÜ"},
+                {"title": "Alle Apps und Spiele"},
+                {"title": "Spiele"},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."}
+            ]
+            }, 
+            {"title": "Amazon Photos",
+            "contents": 
+            [
+                {"title": "HAUPTMENÜ"},
+                {"title": "Amazon Photos"},
+                {"title": "Amazon Drive"},
+                {"title": "..."},
+                {"title": "..."}
+            ]
+            }, 
+            {"title": "Echo, Alexa & Smart Home",
+            "contents": 
+            [
+                {"title": "HAUPTMENÜ"},
+                {"title": "Alle Geräte mit Alexa zeigen"},
+                {"title": "Echo - Intelligente Lautsprecher"},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."}
+            ]
+            }, 
+            {"title": "Fire TV",
+            "contents": 
+            [
+                {"title": "HAUPTMENÜ"},
+                {"title": "Alle Fire TV-Geräte"},
+                {"title": "Fire TV Sticks"},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."}
+            ]
+            }, 
+            {"title": "Fire Tablets",
+            "contents": 
+            [
+                {"title": "HAUPTMENÜ"},
+                {"title": "Alle Fire-Tablets"},
+                {"title": "Fire-Tablets"},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."}
+            ]
+            }, 
+            {"title": "Kindle e-Reader & Bücher",
+            "contents": 
+            [
+                {"title": "HAUPTMENÜ"},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."}
+            ]
+            }, 
+            {"title": "Audible Hörbüscher",
+            "contents": 
+            [
+                {"title": "HAUPTMENÜ"},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."}
+            ]
+            }
+        ]
+    },
+    {
+        "title": "Alle Kategorien", 
+        "contents": [
+            {"title": "Bücher",
+            "contents": 
+            [
+                {"title": "HAUPTMENÜ"},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."}
+            ]
+            }, 
+            {"title": "Filme, Serien, Musik & Games",
+            "contents": 
+            [
+                {"title": "HAUPTMENÜ"},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."}
+            ]
+            }, 
+            {"title": "Elektronik & Computer",
+            "contents": 
+            [
+                {"title": "HAUPTMENÜ"},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."}
+            ]
+            }, 
+            {"title": "Smart Home",
+            "contents": 
+            [
+                {"title": "HAUPTMENÜ"},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."}
+            ]
+            }, 
+            {"title": "Alle Anzeigen",
+            "contents": 
+            [
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "Weniger Anzeigen"}
+            ]
+            } 
+        ]
+    },
+    {
+        "title": "Programme & Funktionen", 
+        "contents": [
+            {"title": "Handmade & Amazon Launchpad",
+            "contents": 
+            [
+                {"title": "HAUPTMENÜ"},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."}
+            ]
+            }, 
+            {"title": "Made in Italy"}, 
+            {"title": "Kleine Unternehmen",
+            "contents": 
+            [
+                {"title": "HAUPTMENÜ"},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."}
+            ]
+            }, 
+            {"title": "Amazon Business",
+            "contents": 
+            [
+                {"title": "HAUPTMENÜ"},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."}
+            ]
+            }, 
+            {"title": "Alle Anzeigen",
+            "contents": 
+            [
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "..."},
+                {"title": "Weniger Anzeigen"}
+            ]
+            } 
+        ]
+    },
+    {
+        "title": "Hilfe & Einstellungen", 
+        "contents": [
+            {"title": "Mein Konto"}, 
+            {"title": "Deutsch"}, 
+            {"title": "Land"}, 
+            {"title": "Währungseinstellungen"}, 
+            {"title": "Kundenservice"}, 
+            {"title": "Anmelden"} 
+        ]
+    }
+
+]

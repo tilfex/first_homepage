@@ -1,0 +1,297 @@
+#header{
+    background-color:rgb(15, 17, 17) ;
+    height: 60px;
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0%;
+}
+
+
+
+#headleft{
+    display: flex;
+    float: none;
+}
+div.linklogo{
+    height: auto;
+    width: auto;
+    float: left;
+    border-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    margin-left: 15px;
+    margin-top: 3.5px;
+    margin-bottom: 3.5px;
+    margin-right: 6px;
+}
+div.linklogo:hover{
+    border-color: white;
+}
+img.header{
+    width: 99px;
+    margin-left: 5px;
+    margin-right: 7px;
+    margin-top: 10px;
+    display: block;
+    float: left;
+}
+div.linkadress{
+    float: left;
+    height: 50px;
+    width: 77.445px;
+    padding-left: 9px;
+    padding-right: 9px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 2px;
+}
+a.delivery{
+    float: left;
+    border-color: transparent;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-decoration: none;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    overflow: hidden;
+}
+a.delivery:hover{
+    border-color: white;
+}
+div.deliverytxt{
+    vertical-align: middle;
+    height: 30px;
+    width: auto;
+    margin-left: 0px;
+    margin-top: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+img.adresspic{
+    float: left;
+    width: 15px;
+    height: 18px;
+    padding-top: 6px;
+}
+p.deliverytxtone{
+    font-size: 12px;
+    padding: 0px;
+    margin: 0;
+    text-align: left;
+    overflow: auto;
+}
+p.deliverytxttwo{
+    font-size: 14px;
+    padding: 0px;
+    margin: 0;
+    text-align: left;
+    overflow: auto;
+}
+
+
+
+#headmid{
+    display: flex;
+    float: none;
+    flex: 1 1 auto;
+}
+div.searcharea{
+    width: 100%;
+    height: 60px;
+    float: left;
+    display: flex;
+}
+div.searcharea.fields{
+    width: 100%;
+    height: 40px;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
+button.kategories{
+    width: 52px;
+    height: 40px;
+    float: left;
+    text-align: left;
+    border-style: solid;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border-color: rgb(243, 243, 243);
+}
+#katbutton{
+    width: 52px;
+    height: 40px;
+    float: left;
+    text-align: left;
+    border-style: solid;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    border-color: rgb(243, 243, 243);
+    margin-left: -8px;
+    margin-top: -3px;
+    background-color: rgb(243, 243, 243);
+    border-right-color: rgb(205, 205, 205);
+    padding-left: 5px;
+    cursor: pointer;
+}
+#katbutton:hover{
+    background-color: #dadada;
+    border-color: #dadada;
+    border-right-color: rgb(205, 205, 205);
+}
+input.search{
+    width: 100%;
+    height: 40px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    float: left;
+    min-width: 400px;
+    border-style: none;  
+}
+div.searchbutton{
+    float: left;
+    height: 40px;
+    width: 45px;
+    position: relative;
+}
+input.firstsearch{
+    float: left;
+    height: 40px;
+    width: 45px;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    border-color: rgb(254, 189, 105);
+    background-color: rgb(254, 189, 105);
+    border-style: none;
+}
+
+
+
+
+#headright{
+    display: flex;
+    float: none;
+    margin-top: 2px;
+    padding-top: 3px;
+}
+div.dropd.one{
+    width: 53px;
+    height: 48px;
+    margin-left: 1px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    border-radius: 2px;
+    position: relative;
+    overflow: hidden;
+}
+div.dropd.one:hover{
+    border-color: white;
+}
+button.dropd{
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+button.dropd img{
+    height: 18px;
+    width: 24px;
+    position: absolute;
+    top: 18px;
+    right: 20px;
+}
+div.dropdcontent{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    bottom: -45px;
+    z-index: 1;
+}
+div.dropdcontent a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+div.dropdcontent a:hover{
+    background-color: grey;
+}
+div.dropd:hover div.dropdcontent{
+    display: block;
+}
+div.dropd.two{
+    width: 129.523px;
+    height: 48px;
+    margin-left: 6px;
+    overflow: hidden;
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: transparent;
+}
+div.dropd.two:hover{
+    border-color: white;
+}
+div.ordersbutton{
+    width: 76.945px;
+    height: 50px;
+    margin-left: 6px;
+    overflow: hidden;
+    float: left;
+}
+div.ordersbutton a{
+    height: 48px;
+    width: 74.945;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    float: left;
+    text-decoration: none;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: transparent;
+    vertical-align: middle;
+}
+div.ordersbutton a:hover{
+    border-color: white;
+}
+div.basketbutton{
+    width: 84px;
+    height: 50px;
+    margin-left: 6px;
+    margin-right: 15px;
+    overflow: hidden;
+    float: left;
+}
+div.basketbutton a{
+    height: 48;
+    width: 82;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    float: left;
+    text-decoration: none;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    border-color: transparent;
+    vertical-align: middle;
+}
+div.basketbutton a:hover{
+    border-color: white;
+}
