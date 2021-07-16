@@ -2,6 +2,9 @@ body {
     background-color:rgb(234, 237, 237) ;
     margin: 0%;    
 }
+.body{
+    overflow: hidden;
+}
 div.background{
     background-image: linear-gradient(to bottom, rgb(52, 52, 131), rgba(0,0,0,0));
     background-repeat: no-repeat;

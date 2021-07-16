@@ -122,18 +122,23 @@ a.navbuttonbig:hover {
   z-index: 2;
   background-color: black;
   opacity: 60%;
-  position: absolute;
   display: none;
+  position: absolute;
 }
 
 #menu {
   z-index: 3;
   position: absolute;
-  left: 0px;
+  left: -365px;
   width: 365px;
   height: 100%;
   background-color: white;
-  display: none;
+  -webkit-transition: left 0.25s;
+  transition: left 0.25s;
+}
+
+#menu.showmenu {
+  left: 0px;
 }
 
 #closemenu {
