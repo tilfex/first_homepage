@@ -10,6 +10,7 @@ class Menu extends React.Component {
     return (
       <div>
         <p>JSON</p>
+        <a id="closemenu"><img src="./images/closemenubut.png" alt="X" /></a>
       </div>
     )
   }
@@ -20,6 +21,14 @@ ReactDOM.render(
   document.getElementById('menu')
 );
 
-  $("#sell").on("click", function(){
-    $("#menu").show();
-  });
+$("#menubutton").on("click", function(){
+  $("#menu").show();
+  $("#menubackground").show();
+  $('#closemenu').show();
+});
+
+$('#closemenu').on("click", function(){
+  $("#menu").hide();
+  $("#menubackground").hide();
+  $('#closemenu').hide();
+});
