@@ -225,7 +225,7 @@ div.dropd.one:hover {
   border-color: white;
 }
 
-button.dropd {
+button.dropdlang {
   background-color: transparent;
   color: white;
   font-size: 16px;
@@ -236,7 +236,7 @@ button.dropd {
   overflow: hidden;
 }
 
-button.dropd img {
+button.dropdlang img {
   height: 18px;
   width: 24px;
   position: absolute;
@@ -244,29 +244,24 @@ button.dropd img {
   right: 20px;
 }
 
-div.dropdcontent {
+#languagedrop {
   display: none;
+  height: 393px;
+  width: 210px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 14px;
+  padding-bottom: 7px;
+  border-width: 1px;
+  border-radius: 3px;
+  margin-top: -3px;
+  margin-left: -2px;
   position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  -webkit-box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  bottom: -45px;
-  z-index: 1;
+  top: 55px;
+  background-color: white;
 }
 
-div.dropdcontent a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-}
-
-div.dropdcontent a:hover {
-  background-color: grey;
-}
-
-div.dropd:hover div.dropdcontent {
+#languagedrop.showlang {
   display: block;
 }
 
@@ -284,6 +279,25 @@ div.dropd.two {
 
 div.dropd.two:hover {
   border-color: white;
+}
+
+button.dropd {
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  width: 100%;
+  height: 100%;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+button.dropd img {
+  height: 18px;
+  width: 24px;
+  position: absolute;
+  top: 18px;
+  right: 20px;
 }
 
 div.ordersbutton {

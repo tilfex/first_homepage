@@ -114,21 +114,22 @@ a.navbuttonbig:hover{
 #menu{
     z-index: 3;
     position: absolute;
-    left: -365px;
+    left: 0px;
     width: 365px;
     height: 100%;
     background-color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
     transition: left 0.25s;
-
-    &.showmenu {
-        left: 0px;
+    &.hidefirstmenu{
+        left: -365px;
     }
 }
 #closemenu{
     z-index: 3;
     position: absolute;
     top: 21px;
-    right: -36px;
+    left: 375px;
     width: 20px;
     background-color: transparent;
     display: none;
@@ -137,5 +138,39 @@ a.navbuttonbig:hover{
 }
 #closemenu img{
     height: 18px;
+}
+#secondmenu{
+    z-index: 3;
+    position: absolute;
+    left: 365px;
+    width: 365px;
+    height: 100%;
+    background-color: white;
+    transition: left 0.25s;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    transition: left 0.25s;
+    &.showsecmenu{
+        left: 0px;
+    }
+}
+#menubox{
+    z-index: 3;
+    position: absolute;
+    left: -365px;
+    width: 365px;
+    height: 100%;
+    background-color: white;
+    transition: left 0.25s;
+    overflow: hidden;
+    &.showmenu {
+        left: 0px;
+    }
+}
+a.menubutton{
+    width: 348px;
+    height: 42px;
+    padding-bottom: 2px;
+    display: block;
 }
 
